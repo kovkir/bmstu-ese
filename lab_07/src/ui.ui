@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>676</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="cocomo2">
+       <attribute name="title">
+        <string>Cocomo II</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>200</y>
+          <width>501</width>
+          <height>401</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Модель ранней разработки архитектуры</string>
+        </property>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>481</width>
+           <height>253</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_16">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_62" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_51">
+              <property name="text">
+               <string>PERS (Опытность персонала)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="modelSelectPERS">
+              <property name="currentIndex">
+               <number>1</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>Очень низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Номинальный</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Очень высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Сверхвысокий</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_65" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_54">
+              <property name="text">
+               <string>RCPX (Надежность и сложность продукта)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="modelSelectRCPX">
+              <property name="currentIndex">
+               <number>4</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>Очень низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Номинальный</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Очень высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Сверхвысокий</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_66" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_55">
+              <property name="text">
+               <string>RUSE (Повторное использование компонентов)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="modelSelectRUSE">
+              <item>
+               <property name="text">
+                <string>Низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Номинальный</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Очень высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Сверхвысокий</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_67" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_56">
+              <property name="text">
+               <string>PDIF (Сложность платформы)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="modelSelectPDIF">
+              <property name="currentIndex">
+               <number>2</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>Низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Номинальный</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Очень высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Сверхвысокий</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_68" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_57">
+              <property name="text">
+               <string>PREX (Способности персонала)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="modelSelectPREX">
+              <property name="currentIndex">
+               <number>2</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>Очень низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Номинальный</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Очень высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Сверхвысокий</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_69" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_58">
+              <property name="text">
+               <string>FSIL (Возможности среды)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="modelSelectFSIL">
+              <property name="currentIndex">
+               <number>4</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>Очень низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Номинальный</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Очень высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Сверхвысокий</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_70" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_59">
+              <property name="text">
+               <string>SCED (Сроки)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="modelSelectSCED">
+              <property name="currentIndex">
+               <number>4</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>Очень низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Низкий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Номинальный</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Высокий</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Очень высокий</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_61" stretch="2,1">
+            <item>
+             <widget class="QLabel" name="label_50">
+              <property name="text">
+               <string>Средняя зарплата (руб)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="avgSalaryArchitectureInput">
+              <property name="maximum">
+               <number>99999999</number>
+              </property>
+              <property name="value">
+               <number>90000</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QPushButton" name="resultArchitectureBtn">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>360</y>
+           <width>481</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Рассчитать</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="resultArchitectureTable">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>300</y>
+           <width>481</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>Результат</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Трудозатраты (чел/мес)</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Время (мес)</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Бюджет (руб)</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>200</y>
+          <width>481</width>
+          <height>401</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string>Модель композиции приложения</string>
+        </property>
+        <widget class="QTableWidget" name="resultCompositionTable">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>300</y>
+           <width>441</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>Результат</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Трудозатраты (чел/мес)</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Время (мес)</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Бюджет (руб)</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QPushButton" name="resultCompositionBtn">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>360</y>
+           <width>441</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Рассчитать</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>230</y>
+           <width>421</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_51" stretch="1,1">
+          <item>
+           <widget class="QLabel" name="label_40">
+            <property name="text">
+             <string>Средняя зарплата (руб)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="avgSalaryCompositionInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+            <property name="value">
+             <number>90000</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>260</y>
+           <width>421</width>
+           <height>26</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_60" stretch="1,1">
+          <item>
+           <widget class="QLabel" name="label_49">
+            <property name="text">
+             <string>Опытность команды</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="teamExpSelect">
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>Очень низкий</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Низкий</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Номинальный</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Высокий</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Очень высокий</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>170</y>
+           <width>421</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_58">
+          <item>
+           <widget class="QLabel" name="label_47">
+            <property name="text">
+             <string>Модули</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="modulesInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+            <property name="value">
+             <number>2</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>200</y>
+           <width>421</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_59">
+          <item>
+           <widget class="QLabel" name="label_48">
+            <property name="text">
+             <string>%RUSE</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDoubleSpinBox" name="RUSEPercentInput">
+            <property name="maximum">
+             <double>999999999.990000009536743</double>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>181</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_52">
+          <item>
+           <widget class="QLabel" name="label_41">
+            <property name="text">
+             <string>Простые</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="screenFormEasyInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+            <property name="value">
+             <number>1</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>90</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_53">
+          <item>
+           <widget class="QLabel" name="label_42">
+            <property name="text">
+             <string>Средние</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="screenFormNormalInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+            <property name="value">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>120</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_54">
+          <item>
+           <widget class="QLabel" name="label_43">
+            <property name="text">
+             <string>Сложные</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="screenFormHardInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+            <property name="value">
+             <number>1</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>30</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Экранные формы</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>60</y>
+           <width>187</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_55">
+          <item>
+           <widget class="QLabel" name="label_44">
+            <property name="text">
+             <string>Простые</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="reportEasyInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>90</y>
+           <width>187</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_57">
+          <item>
+           <widget class="QLabel" name="label_46">
+            <property name="text">
+             <string>Средние</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="reportNormalInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>120</y>
+           <width>187</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_56">
+          <item>
+           <widget class="QLabel" name="label_45">
+            <property name="text">
+             <string>Сложные</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="reportHardInput">
+            <property name="maximum">
+             <number>99999999</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>30</y>
+           <width>60</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Отчеты</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>21</x>
+          <y>11</y>
+          <width>1001</width>
+          <height>177</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string>Факторы показателя степени модели</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_42" stretch="7,11">
+           <item>
+            <widget class="QLabel" name="label_34">
+             <property name="text">
+              <string>PREC (Новизна проекта)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="factorSelectPREC">
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Полное отсутствие прецедентов, полностью непредсказуемый проект</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Почти полное отсутствие прецедентов, в значительной мере непредсказуемый проект</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Наличие некоторого количества прецедентов</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Общее знакомство с проектом</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Значительное знакомство с проектом</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Полное знакомство с проектом</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_43" stretch="7,11">
+           <item>
+            <widget class="QLabel" name="label_35">
+             <property name="text">
+              <string>FLEX (Гибкость процесса разработки)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="factorSelectFLEX">
+             <property name="currentIndex">
+              <number>3</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Точный, строгий процесс разработки</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Случайные послабления в процессе</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Некоторые послабления в процессе</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Большей частью согласованный процесс</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Некоторое согласование процесса</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Заказчик определил только общие цели</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_44" stretch="7,11">
+           <item>
+            <widget class="QLabel" name="label_36">
+             <property name="text">
+              <string>RESL (Разрешение рисков в архитектуре системы)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="factorSelectRESL">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Малое (20 %)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Некоторое (40 %)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Частое (60 %)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>В целом (75 %)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Почти полное (90 %)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Полное (100%)</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_45" stretch="7,11">
+           <item>
+            <widget class="QLabel" name="label_37">
+             <property name="text">
+              <string>TEAM (Сплоченность команды)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="factorSelectTEAM">
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Сильно затрудненное взаимодействие</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Несколько затрудненное взаимодействие</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Некоторая согласованность</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Повышенная согласованность</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Высокая согласованность</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Взаимодействие как в едином целом</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_46" stretch="7,11">
+           <item>
+            <widget class="QLabel" name="label_38">
+             <property name="text">
+              <string>PMAT (Уровень зрелости процесса разработки)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="factorSelectPMAT">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Уровень 1 CMM</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Уровень 1+ СММ</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Уровень 2 CMM</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Уровень 3 CMM</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Уровень 7 CMM</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Уровень 5 CMM</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="funcDots">
+       <attribute name="title">
+        <string>Функциональные точки</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>9</y>
+          <width>431</width>
+          <height>611</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string>Характеристики продукта</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Обмен данными</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect1">
+             <property name="currentIndex">
+              <number>5</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>Распределенная обработка</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect2">
+             <property name="currentIndex">
+              <number>5</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Производительность</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect3">
+             <property name="currentIndex">
+              <number>3</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Эксплуатационные ограничения по аппаратным ресурсам</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect4">
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_16" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Транзакционная нагрузка</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect5">
+             <property name="currentIndex">
+              <number>3</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Оперативный ввод данных</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect6">
+             <property name="currentIndex">
+              <number>4</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="3,1">
+           <property name="spacing">
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Эргономические характеристики, влияющие на эффективность работы конечных пользователей</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect7">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_15" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Оперативное обновление</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect8">
+             <property name="currentIndex">
+              <number>4</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Сложность обработки</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect9">
+             <property name="currentIndex">
+              <number>4</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Повторное использование</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect10">
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Легкость инсталляции</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect11">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>Легкость эксплуатации</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect12">
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Портируемость</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect13">
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="3,1">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Гибкость</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="productAttributeSelect14">
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>571</width>
+          <height>268</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string>Процент использования языков программирования</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_19">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_35">
+             <item>
+              <widget class="QLabel" name="label_30">
+               <property name="text">
+                <string>ASM</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput1">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_31">
+             <item>
+              <widget class="QLabel" name="label_26">
+               <property name="text">
+                <string>C</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput2">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_32">
+             <item>
+              <widget class="QLabel" name="label_27">
+               <property name="text">
+                <string>Cobol</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput3">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_29">
+             <item>
+              <widget class="QLabel" name="label_24">
+               <property name="text">
+                <string>Fortran</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput4">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_33">
+             <item>
+              <widget class="QLabel" name="label_28">
+               <property name="text">
+                <string>Pascal</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput5">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_34">
+             <item>
+              <widget class="QLabel" name="label_29">
+               <property name="text">
+                <string>C++</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput6">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_36">
+             <item>
+              <widget class="QLabel" name="label_31">
+               <property name="text">
+                <string>С#</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput7">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>60.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_30">
+             <item>
+              <widget class="QLabel" name="label_25">
+               <property name="text">
+                <string>Java</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput8">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>25.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_23">
+             <item>
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>Ada 95</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput9">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_20">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>Visual Basic</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput10">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_25">
+             <item>
+              <widget class="QLabel" name="label_20">
+               <property name="text">
+                <string>Visual C++</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput11">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_26">
+             <item>
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>Delphi</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput12">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_27">
+             <item>
+              <widget class="QLabel" name="label_22">
+               <property name="text">
+                <string>Perl</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput13">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_28">
+             <item>
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>Prolog</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput14">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_24">
+             <item>
+              <widget class="QLabel" name="label_19">
+               <property name="text">
+                <string>SQL</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput15">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>15.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_38">
+             <item>
+              <widget class="QLabel" name="label_33">
+               <property name="text">
+                <string>Java Script</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="languagePercentInput16">
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>287</y>
+          <width>581</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string>Расчет числа функциональных точек</string>
+        </property>
+        <widget class="QPushButton" name="resultFuncDotBtn">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>290</y>
+           <width>551</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Рассчитать</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="funcDotsTable">
+         <property name="geometry">
+          <rect>
+           <x>13</x>
+           <y>32</y>
+           <width>551</width>
+           <height>190</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string>Внешние вводы</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Внешние выводы</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Внешние запросы</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Внутренние логические файлы</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Внешние интерфейсные файлы</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Низкий</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Средний</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Сложный</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Итого</string>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>5</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item row="4" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="4" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QTableWidget" name="resultFuncDotsTable">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>230</y>
+           <width>551</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>Результат</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Функциональные точки</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Коррекция ФТ</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Строки кода</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
